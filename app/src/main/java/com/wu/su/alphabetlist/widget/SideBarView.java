@@ -10,7 +10,6 @@ import android.view.View;
 
 import com.wu.su.alphabetlist.R;
 
-
 /**
  * List of first letters on the right
  */
@@ -40,6 +39,7 @@ public class SideBarView extends View {
     private String currCharacter = "#";
     private OnTouchingLetterChangedListener onTouchingLetterChangedListener;
 
+    // 字母列表点击事件监听
     public interface OnTouchingLetterChangedListener {
         void onTouchingLetterChanged(String s);
     }
@@ -47,6 +47,7 @@ public class SideBarView extends View {
         this.onTouchingLetterChangedListener = onTouchingLetterChangedListener;
     }
 
+    // 绘制字母列表
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         int height = (int) (getHeight() * SCALING_RATIO);
@@ -87,6 +88,7 @@ public class SideBarView extends View {
                 if (oldSelected != selected) {
                     if (selected >= 0 && selected < characters.length) {
                         if (listener != null) {
+                            // 将事件通知ListView显示对应首字母内容
                             listener.onTouchingLetterChanged(characters[selected]);
                         }
                         ifSelected = selected;

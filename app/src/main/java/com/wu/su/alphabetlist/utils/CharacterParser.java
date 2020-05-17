@@ -111,8 +111,9 @@ public class CharacterParser {
 
     /**
      * 获取字母列表的首字母
-     * @param sortKeyString
-     * @return
+     * 1. 若为英文字母，则直接取首字母
+     * 2. 若为中文，则先转换为拼音，再取首字母
+     * 3. 非英文或中文，则默认非"#"分类
      */
     public String getSortKey(String sortKeyString) {
         String key = sortKeyString.substring(0, 1).toUpperCase();

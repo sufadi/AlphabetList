@@ -215,7 +215,9 @@ public class MainActivity extends Activity {
     }
 
 
-
+    /**
+     * 当输入框里面的值为空，更新为原来的列表，否则为过滤数据列表
+     */
     private void startSearch(String filterStr) {
         List<SortModel> startSearchList = new ArrayList<SortModel>();
         if (TextUtils.isEmpty(filterStr)) {
