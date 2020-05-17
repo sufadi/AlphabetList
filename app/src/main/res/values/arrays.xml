@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 模拟数据数据源 -->
+    <string-array name="fake_data">
+        <item>Angry Birds 2</item>
+        <item>浏览器</item>
+        <item>哔哩哔哩</item>
+        <item>百度地图</item>
+        <item>天际通</item>
+        <item>AlarmDemo</item>
+        <item>百词斩</item>
+        <item>周杰伦</item>
+        <item>长城</item>
+        <item>哔哩哔哩动画</item>
+        <item>菜鸟裹裹</item>
+        <item>钉钉</item>
+        <item>叮咚买菜</item>
+        <item>58同城</item>
+        <item>哈罗出行</item>
+        <item>华为云电脑</item>
+        <item>火柴人乱斗单机格斗</item>
+        <item>支付宝</item>
+        <item>QQ</item>
+        <item>亲宝宝</item>
+        <item>66同花顺</item>
+        <item>鹏淘</item>
+        <item>中国建设银行</item>
+        <item>乐宝投票</item>
+        <item>乘车码</item>
+        <item>Keep</item>
+        <item>keep</item>
+        <item>UC浏览器</item>
+        <item>追书神器</item>
+        <item>淘票票</item>
+        <item>腾讯视频</item>
+        <item>keep</item>
+        <item>优酷视频</item>
+        <item>地铁12306</item>
+        <item>哈罗出行</item>
+        <item>搜狗输入法</item>
+        <item>重庆</item>
+        <item>QQ音乐</item>
+        <item>长城</item>
+        <item>掌上生活</item>
+        <item>WIFI万能钥匙</item>
+        <item>温度曲线悬浮窗</item>
+        <item>微警认证</item>
+        <item>wifi万能钥匙</item>
+        <item>去哪儿</item>
+        <item>亳州</item>
+        <item>个人收的税</item>
+        <item>邮政银行</item>
+        <item>苏法迪Jobs</item>
+        <item>喜马拉雅</item>
+        <item>@string/app_name</item>
+        <item>想不想修真</item>
+        <item>#招商银行</item>
+        <item>$797835344$</item>
+        <item>Jack</item>
+        <item>~快手</item>
+        <item>~拼多多</item>
+        <item>法迪</item>
+        <item>Fadi</item>
+        <item>fadi-落落</item>
+        <item>ファディ</item>
+        <item>Фади</item>
+        <item>吴喵喵</item>
+    </string-array>
+
+</resources>
